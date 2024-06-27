@@ -1,0 +1,21 @@
+:root {
+  --font-family-base: "Oswald", "Arial", "Helvetica", sans-serif; 
+  --font-family-accent: "Montserrat", sans-serif;
+
+  --transition-duration: 0.5s;
+  --transition-timing-function: ease;
+  --transition-default: all var(--transition-duration) var(--transition-timing-function);
+
+  --base-palette-tone-1000: #010101; 
+  --base-palette-tone-900: #151515; 
+  --base-palette-tone-800: #333333; 
+  --base-palette-tone-400: #7A7A7A;   
+  --base-palette-tone-300: #939393;   
+  --base-palette-tone-200: #CFCFCF;   
+  --base-palette-tone-100: #fff;   
+
+  --accent-palette-tone-100: #5BB6A5;
+
+  --primary-background-color: var(--base-palette-tone-1000);
+  --primary-text-color: var(--base-palette-tone-100);
+} 

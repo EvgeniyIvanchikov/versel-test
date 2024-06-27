@@ -1,0 +1,28 @@
+*, *>*{
+  box-sizing: border-box;
+  }
+  * {
+		&::-webkit-scrollbar {
+			width: 0;
+		}
+		scrollbar-width: none;
+}
+
+  a {
+    color: inherit;
+    text-decoration: inherit;
+  }
+
+  img{
+    max-width: 100%;
+  }
+  .faq__details-inner{
+    a{
+      transition: var(--transition-default);
+      text-decoration: underline;
+      text-underline-offset: 3px;
+      &:hover{
+        color: var(--accent-palette-tone-100);
+      }
+    }
+  }
